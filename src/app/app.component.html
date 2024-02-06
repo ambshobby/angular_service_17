@@ -3,6 +3,6 @@
 <ul class="list-group">
   @for(post of apidata; track post) 
   {
-    <li>{{post.id}}---{{post.title}} - {{post.body}}  </li>
+    <li>{{post.id}}---{{post.title | uppercase}} - {{post.body}}  </li>
   }
 </ul>
